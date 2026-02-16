@@ -6,16 +6,22 @@ React + TypeScript web dashboard for AI Data Labs platform.
 
 ```bash
 # Install dependencies
-npm install
+bun install
 
 # Run development server
-npm run dev
+bun run dev
 
 # Build for production
-npm run build
+bun run build
 
 # Start production server
-npm run start
+bun run start
+
+# Lint code
+bun run lint
+
+# Format code
+bun run format
 ```
 
 ## 📁 Structure
@@ -29,11 +35,14 @@ src/
 
 ## 🛠️ Tech Stack
 
+- **Runtime:** bun (JavaScript/TypeScript runtime)
 - **Framework:** Next.js 14
-- **Language:** TypeScript
+- **Language:** TypeScript (strict mode)
+- **Code Quality:** biome (linter + formatter)
 - **Styling:** Tailwind CSS
 - **Data Fetching:** TanStack Query
 - **HTTP Client:** Axios
+- **Deployment:** Cloudflare Workers (static site)
 
 ## 🔗 Links
 
